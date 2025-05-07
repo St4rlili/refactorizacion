@@ -13,18 +13,12 @@ public class Cliente {
         this.telefono = telefono;
     }
 
-    // Getters
     public String getNombre() { return nombre; }
     public String getApellido() { return apellido; }
     public String getDireccion() { return direccion; }
     public String getTelefono() { return telefono; }
 
-    @Override
     public String toString() {
-        return "Cliente:\n" +
-                "Nombre: " + nombre + "\n" +
-                "Apellido: " + apellido + "\n" +
-                "Dirección: " + direccion + "\n" +
-                "Teléfono: " + telefono;
+        return "Cliente:\n" + "Nombre: " + nombre + "\n" + "Apellido: " + apellido + "\n" + "Dirección: " + direccion + "\n" + "Teléfono: " + telefono;
     }
 }
